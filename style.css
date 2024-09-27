@@ -1,0 +1,635 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    margin: 0px;
+    /* color: #3b3535; */
+    border: border-box;
+}
+
+
+.navbar{
+    height: 100px;
+    background-color: rgb(241, 236, 236);
+    display: flex;
+    position: fixed;
+   width: 100%;
+   transition: 0.8s;
+}
+.nav-logo{
+    height:100px;
+    width: 100px;
+}
+.logo{
+    background-image: url(./ASSETS/rdc-redbus-logo.svg);
+    height: 60px;
+    width:90px;
+    background-size: cover;
+    margin-left: 200px;
+    margin-top: 25px;
+
+    color: #3b3535;
+}
+
+.ticket{
+    background-image: url(./ASSETS/sideview.jpeg);
+    height: 60px;
+    width:90px;
+    background-size: cover;
+    margin-left: 300px;
+    margin-top: 25px;
+    border-radius: 0.5rem;
+    color: #3b3535;
+}
+
+.logo1{
+    height: 60px;
+    width:90px;
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 0.5rem;
+    color: #3b3535;
+    
+}
+
+.btn1{
+    cursor: pointer;
+
+    height: 60px;
+    width:90px;
+    background-size: cover;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    color: #3b3535;
+}
+
+.logo2{
+    height: 60px;
+    width:90px;
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 25px;
+    color: #3b3535;
+}
+
+.btn2{
+    cursor: pointer;
+    height: 60px;
+    width:100px;
+    background-size: cover;
+    margin-left: 2px;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    color: #3b3535;
+}
+
+.logo3{
+    
+        height: 60px;
+        width:90px;
+        background-size: cover;
+        margin-left: 50px;
+        margin-top: 35px;
+        color: #3b3535;
+    
+}
+.btn3{
+    cursor: pointer;
+    height: 30px;
+    width:100px;
+    background-size: cover;
+    margin-left: 300px;
+    border-radius: .5rem;
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #3b3535;
+}
+
+.logo4{
+    height: 60px;
+    width:90px;
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 35px;
+    color: #3b3535;
+
+}
+
+.btn4{
+    cursor: pointer;
+    height: 30px;
+    width:100px;
+    background-size: cover;
+    margin-left: 300px;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #3b3535;
+}
+
+
+
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover{
+    background-color: #c6c1c1;
+}
+
+
+
+.content{
+    background-image: url(./ASSETS/backg4.jpg);
+   top: 0px;
+    height: 600px;
+    width: 100%;
+
+    
+}
+
+.btn-cnt{
+    cursor: pointer;
+    align-items: center;
+    margin-top: 150px;
+    margin-left:200px;
+    background-color: transparent;
+    color: rgba(247, 244, 244, 0.749);
+    border-color: transparent;
+    
+    
+
+}
+
+.search{
+    display: flex;
+}
+
+.search-btn1{
+    height: 100px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left:50px;
+    background-color:white;
+    border-bottom-left-radius: 2rem ;
+    border-top-left-radius: 2rem;
+    color: #3b3535;
+    display: flex;
+    align-items: center;
+    
+}
+
+.content1{
+    cursor: pointer;
+ margin-left: 70px;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.div1{
+  margin-right: 15px;
+}
+
+.search-btn2{
+    height: 100px;
+    width: 250px;
+    margin-top: 30px;
+    background-color:white;
+    margin-left: 1px;
+    color: #3b3535;
+    display: flex;
+    align-items: center;
+}
+.content2{
+    cursor: pointer;
+    margin-left: 70px;
+    display: flex;
+ justify-content: space-evenly;
+}
+.div3{
+    margin-right: 15px;
+}
+.search-btn3{
+    height: 100px;
+    width: 250px;
+    margin-top: 30px;
+    background-color: white;
+    margin-left: 1px;
+    color: #3b3535;
+    display: flex;
+    align-items: center;
+}
+
+.content3{
+    cursor: pointer;
+     margin-left: 70px;
+     display: flex;
+     justify-content: space-between; 
+     align-items: center;
+}
+.div5{
+
+    margin-right: 15px;
+}
+.search-btn4{
+    height: 100px;
+    width: 250px;
+    margin-top: 30px;
+    background-color:#D84E55;
+    margin-left: 1px;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    align-items: center;
+}
+.search-btn4:hover{
+    background-color: #c6c1c1;
+}
+.content4{
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.heading2{
+    margin-left: 450px;
+    margin-top: 25px;
+    color: rgb(202, 235, 135);
+    font-weight: 900;
+}
+
+.offer-button{
+    height: 300px;
+    width: 80%;
+    background-color:rgb(247, 242, 242);
+    margin-left:150px;
+    margin-top: 20px;
+    border-radius: 2rem;
+    color: rgb(121, 108, 108);
+    border-color: transparent;
+   
+    
+}
+
+.heading3{
+    margin-left: 20px;
+    border: transparent;
+    border-color: transparent;
+    color: #585353;
+    font-size: large;
+
+    
+
+}
+
+.view{
+    cursor: pointer;
+    height: 40px;
+    width:120px;
+    background-size: cover;
+    margin-left: 1020px;
+    border-radius: 1.5rem;
+    border-color: rgb(87, 85, 85);
+    color: #140de1;
+
+}
+
+
+
+.cards-container{
+    cursor: pointer;
+    display: flex;
+}
+
+.card1{ 
+    height: 150px;
+    width: 250px;
+ border-radius: 1rem;
+ margin-left: 20px;
+ display: flex;
+ background-image: url(./ASSETS/card5.jpg);
+ background-size: cover;
+   
+    }
+
+.card2{
+    height: 150px;
+    width: 250px;
+background-image: url(./ASSETS/card1.png);
+ border-radius: 1rem;
+ margin-left: 20px;
+ margin-top: 2px;
+ background-size: cover;
+}
+
+.card3{
+    height: 150px;
+    width: 250px;
+ background-image: url(./ASSETS/card8.webp);
+ border-radius: 1rem;
+ margin-left: 20px;
+ margin-top: 2px;
+ background-size: cover;
+}
+
+.card4{
+    height: 150px;
+    width: 250px;
+background-image: url(./ASSETS/card6b.jpeg);
+ border-radius: 1rem;
+ margin-left: 20px;
+ margin-top: 2px;
+ background-size: cover;
+}
+
+.card5{
+    height: 150px;
+    width: 250px;
+ background-image: url(./ASSETS/card7.jpeg);
+ border-radius: 1rem;
+ margin-left: 20px;
+ margin-top: 2px;
+ background-size: cover;
+}
+
+
+
+.img1{
+    width: 80%;
+    height: 80px;
+    background-image: url(./ASSETS/slideImg.jpeg);
+    margin-top: 135px;
+    margin-left: 150px;
+    border-radius: 1rem;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.bottom{
+    height: 600px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 50px;
+    display: flex;
+}
+.section1{
+    background-color: aliceblue;
+    height: 500px;
+    width: 50%;
+    margin-left: 150px;
+
+}
+.bottom-1{
+    display: flex;
+    
+}
+
+.section1-P1{
+    font-weight: lighter;
+    color: #7b7777;
+}
+
+.section1-P2{
+    font-weight: bolder;
+    color:black ;
+}
+
+.bottom-2{
+    display: flex;
+    
+
+}
+
+.section-img3{
+    margin-left: 10px;
+    color: #7b7777;
+}
+.section-img4{
+    color: #7b7777;
+}
+
+.section2{
+    background-color: aliceblue;
+    height: 600px;
+    width: 50%;
+    background-image: url(./ASSETS/rydePop.svg);
+}
+
+.bottom-3{
+    display: flex;
+}
+.div-btn{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 55px;
+    border-bottom-color: #D84E55;
+}
+.bottom-btn1{
+    color: #D84E55;
+    width:300px;
+    border-color: transparent;
+    display: flex;
+
+}
+
+.bottom-btn-2{
+margin-left: 25px;
+}
+
+.bottom-btn2{
+    cursor: pointer;
+    width: 300px;
+    background-size: cover;
+    margin-left: 2px;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    color: #3b3535;
+    display: flex;
+}
+
+.bottom-btn2-1{
+    margin-left: 30px;
+}
+.bottom-btn2-2{
+    margin-left: 30px;
+}
+.bottom-btn2:hover{
+    background-color: #ffffff;
+
+}
+
+.heading4{
+    margin-top: 35px;
+    color: #3b3535;
+}
+
+.cars{
+    margin-top: 40px;
+    display: flex;
+}
+.car-heading{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.tempo{
+    display: flex;
+}
+.tempo-heading{
+    margin-left: 25px;
+    margin-top: 24px;
+}
+
+.airport{
+    margin-top: 25px;
+    display: flex;
+}
+.airport-heading{
+    margin-left: 20px;
+}
+
+.booking{
+    height: 55px;
+    margin-top: 35px;
+    background-color: #D84E55;
+    border-radius: 1rem;
+    width: 250px;
+    border-color: transparent;
+    color: white;
+}
+.main-heading{
+    margin-left: 80px;
+   color: #ffffff;
+
+}
+
+.scanner{
+    height: 400px;
+    width: 80%;
+    background-color: #D84E55;
+    margin-left: 150px;
+    border-radius: 3rem;
+    
+}
+
+.small-area{
+    height: 290px;
+    width: 300px;
+    background-color:#ffffff;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 1.5rem;
+  border-color: transparent;
+}
+
+.small-icons1{
+    display: flex;
+  margin-bottom: 10px;
+}
+
+
+.small-icon-img{
+    color: green;
+    margin-left: 25px;
+}
+.small-icon-text{
+    margin-left: 10px;
+    
+}
+.small-icons2{
+    display: flex;
+    margin-bottom: 100px;
+}
+.small-icon2-img{
+    color: green;
+    margin-left: 25px;
+}
+.small-icon2-text{
+    margin-left: 10px;
+    
+}
+.rating{
+    display: flex;
+    background-color: #4A4A4A;
+}
+.playstore{
+    background-color: #ffffff;
+    height: 100px;
+    width: 50%;
+}
+.appstore{
+    margin-left: 1px;
+    background-color:#ffffff;
+    height: 100px;
+    width: 50%;
+
+}
+.box{
+    display: flex;
+}
+
+.qr{
+    height: 200px;
+    width: 200px;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-top: 100px;
+
+
+}
+.qr-img{
+    height: 105px;
+    width: 105px;
+   background-image: url(./ASSETS/qrCode.svg);
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: .5rem;
+}
+
+.qr-txt{
+    color: #ffffff;
+    margin-left: 25px;
+    margin-top:80 px;
+}
+
+
+
+
+
+
+.download{
+    height: 160px;
+    width: 160px;
+
+    margin-top: 100px;
+
+}
+.download-txt{
+    color: #ffffff;
+
+}
+
+.download-img-1{
+    background-image: url(./ASSETS/playStore\ \(1\).svg);
+    width: 92%;
+    height: 43px;
+    margin-top: 15px;
+
+}
+
+.download-img-2{
+    background-image: url(./ASSETS/appStore.svg);
+    width: 92%;
+    height: 47px;
+    margin-top: 15px;
+
+}
+  
+
+.sticker{
+    height: 210px;
+    width: 465px;
+   background-image: url(./ASSETS/primoTopBanner.svg);
+    margin-left: 500px;
+    margin-top: 100px;
+}
+   
